@@ -2,6 +2,7 @@ function printStars(number) {
 
     let stars = " ";
 
+    //reverse pyramid
     for (let i = 1; i < number; i++) {
 
         for (let j = number; j >= i; j--) {
@@ -19,6 +20,7 @@ function printStars(number) {
         
     }
 
+    //pyramid
     for (let m = number; m >= 1; m--) {
 
         for (let n = number; n >= m; n--) {
