@@ -16,8 +16,7 @@ function printStars(number) {
 
         for (let k = -1; k < space; k++) {
             stars += " "
-        }
-        
+        }  
     }
 
     //pyramid
@@ -35,7 +34,6 @@ function printStars(number) {
         for (let o = 0; o < space-1; o++) {
             stars += " "
         }
-        
     }
     console.log(stars);
 }
